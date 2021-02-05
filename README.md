@@ -50,3 +50,16 @@ Or let it read a file:
 ```bash
 python3 -m representative_example.file_io --json_file ./example_data.json
 ```
+
+## More representative example
+
+first generate the example mat file:
+```bash
+python3 -m weee.gen_example
+```
+
+run like this:
+```bash
+python3 -m weee --mat_file ./testo.mat
+```
+
